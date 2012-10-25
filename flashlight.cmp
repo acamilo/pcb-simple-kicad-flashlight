@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Oct 2012 09:46:58 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Oct 2012 10:12:12 NZDT
+
+BeginCmp
+TimeStamp = /5089AA40;
+Reference = BT1;
+ValeurCmp = BATTERY_CR2032;
+IdModule  = CR2032_HOLDER_KEYSTONE_3003;
+EndCmp
 
 BeginCmp
 TimeStamp = /5089A2A2;

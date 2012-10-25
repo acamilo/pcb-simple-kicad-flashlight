@@ -1,6 +1,6 @@
-update=Fri 26 Oct 2012 10:06:32 NZDT
+update=Fri 26 Oct 2012 10:11:31 NZDT
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -22,12 +22,10 @@ MSegLar=120
 LibName1=w_indicators
 LibName2=w_misc_comp
 LibName3=w_pth_resistors
+LibName4=battery-cr2032-retainer-keystone-3003
 LibDir=parts
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=parts
@@ -40,3 +38,6 @@ LabSize=60
 LibName1=power
 LibName2=w_device
 LibName3=battery-cr2032
+[cvpcb]
+version=1
+NetIExt=net

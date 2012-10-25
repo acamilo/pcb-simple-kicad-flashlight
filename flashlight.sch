@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 26 Oct 2012 10:06:33 NZDT
+EESchema Schematic File Version 2  date Fri 26 Oct 2012 10:11:09 NZDT
 LIBS:power
 LIBS:w_device
 LIBS:battery-cr2032
@@ -111,4 +111,40 @@ Wire Wire Line
 	5900 2500 6050 2500
 Wire Wire Line
 	6050 2500 6050 2600
+$Comp
+L BATTERY_CR2032 BT1
+U 1 1 5089AA40
+P 3650 3200
+F 0 "BT1" H 3650 3400 50  0000 C CNN
+F 1 "BATTERY_CR2032" H 3650 3010 50  0000 C CNN
+	1    3650 3200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 3300
+$Comp
+L +BATT #PWR07
+U 1 1 5089AA63
+P 3050 3100
+F 0 "#PWR07" H 3050 3050 20  0001 C CNN
+F 1 "+BATT" H 3050 3200 30  0000 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5089AA72
+P 4100 3250
+F 0 "#PWR08" H 4100 3250 30  0001 C CNN
+F 1 "GND" H 4100 3180 30  0001 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3100 3050 3200
+Wire Wire Line
+	3050 3200 3350 3200
+Wire Wire Line
+	3950 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 3250
 $EndSCHEMATC

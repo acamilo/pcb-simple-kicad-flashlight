@@ -1,15 +1,20 @@
-# EESchema Netlist Version 1.1 created  Fri 26 Oct 2012 09:39:18 NZDT
+# EESchema Netlist Version 1.1 created  Fri 26 Oct 2012 10:11:00 NZDT
 (
  ( /5089A278 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
   (    1 +BATT )
-  (    2 N-000001 )
+  (    2 N-000002 )
  )
  ( /5089A28E $noname  R1 R {Lib=R}
-  (    1 N-000001 )
+  (    1 N-000002 )
   (    2 N-000003 )
  )
  ( /5089A2A2 $noname  LD1 LED {Lib=LED}
   (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /5089AA40 $noname  BT1 BATTERY_CR2032 {Lib=BATTERY_CR2032}
+  (    0 ? )
+  (    1 +BATT )
   (    2 GND )
  )
 )
@@ -23,11 +28,17 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "" ""
+Net 2 "" ""
  R1 1
  SW1 2
 Net 3 "" ""
- R1 2
  LD1 1
+ R1 2
+Net 4 "GND" "GND"
+ LD1 2
+ BT1 2
+Net 5 "+BATT" "+BATT"
+ BT1 1
+ SW1 1
 }
 #End
