@@ -1,0 +1,33 @@
+# EESchema Netlist Version 1.1 created  Fri 26 Oct 2012 09:39:18 NZDT
+(
+ ( /5089A278 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 +BATT )
+  (    2 N-000001 )
+ )
+ ( /5089A28E $noname  R1 R {Lib=R}
+  (    1 N-000001 )
+  (    2 N-000003 )
+ )
+ ( /5089A2A2 $noname  LD1 LED {Lib=LED}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R1 1
+ SW1 2
+Net 3 "" ""
+ R1 2
+ LD1 1
+}
+#End
