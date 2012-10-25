@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Oct 2012 10:12:12 NZDT
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Oct 2012 11:09:34 NZDT
 
 BeginCmp
 TimeStamp = /5089AA40;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /5089A28E;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = R12x5.2;
+IdModule  = RC03;
 EndCmp
 
 BeginCmp
