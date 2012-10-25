@@ -1,6 +1,7 @@
-EESchema Schematic File Version 2  date Fri 26 Oct 2012 09:38:17 NZDT
+EESchema Schematic File Version 2  date Fri 26 Oct 2012 10:06:33 NZDT
 LIBS:power
 LIBS:w_device
+LIBS:battery-cr2032
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268

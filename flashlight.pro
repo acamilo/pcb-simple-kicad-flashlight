@@ -1,6 +1,6 @@
-update=Fri 26 Oct 2012 09:42:24 NZDT
+update=Fri 26 Oct 2012 10:06:32 NZDT
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,10 +25,13 @@ LibName3=w_pth_resistors
 LibDir=parts
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=parts
-NetFmtName=
+NetFmtName=Pcbnew
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -36,6 +39,4 @@ LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=w_device
-[cvpcb]
-version=1
-NetIExt=net
+LibName3=battery-cr2032
