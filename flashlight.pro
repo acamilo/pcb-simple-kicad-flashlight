@@ -1,4 +1,4 @@
-update=Fri 26 Oct 2012 08:55:38 NZDT
+update=Fri 26 Oct 2012 09:25:32 NZDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -40,9 +40,12 @@ LibName11=valves
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=parts
 NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=w_device

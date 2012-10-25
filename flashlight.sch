@@ -1,4 +1,6 @@
-EESchema Schematic File Version 2  date Fri 26 Oct 2012 08:55:41 NZDT
+EESchema Schematic File Version 2  date Fri 26 Oct 2012 09:27:57 NZDT
+LIBS:power
+LIBS:w_device
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
