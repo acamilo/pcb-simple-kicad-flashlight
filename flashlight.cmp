@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Oct 2012 09:46:58 NZDT
+
+BeginCmp
+TimeStamp = /5089A2A2;
+Reference = LD1;
+ValeurCmp = LED;
+IdModule  = led_5mm_red;
+EndCmp
+
+BeginCmp
+TimeStamp = /5089A28E;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R12x5.2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5089A278;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = PCB_PUSH;
+EndCmp
+
+EndListe
