@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Fri 26 Oct 2012 11:33:03 NZDT
+PCBNEW-BOARD Version 2 date Fri 26 Oct 2012 13:16:35 NZDT
 
 # Created by Pcbnew(2012-oct-18)-testing
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "25 oct 2012"
+Date "26 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,7 +61,7 @@ PadDrill 0.6
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
